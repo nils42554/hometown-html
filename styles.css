@@ -1,0 +1,64 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/whetstone.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+}
+
+h3{
+    margin-top: 0px;
+}
+
+.middle{
+    padding-top: 40px;
+    background: #F1FAEE;
+}
+
+.activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.guide{
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 240px;
+    background: #A8DADC;
+}
+
+#guideimg{
+    width: 180px;
+    height: 240px;
+}
+
+img{
+    width: 200px;
+}
+
+.activityimg{
+    width: 200px;
+    height: 200px;
+}
